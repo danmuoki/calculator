@@ -1,0 +1,48 @@
+//CONTROL STATEMENTS in Js are constructs that allow you to construct the flow of a program
+/* Control statement are divided into two
+1: Condiotional statements
+2. Loops*/
+
+/**1. conditional satements
+ * under condiotional statements we have
+ * >If statements
+ * >If...else statement
+ * > switch statement
+ */
+
+// //IF STATEMENT
+
+// let age = 17;
+
+// if(age>=18){
+//     console.log("You are eligible to buy beer")      
+// }else{
+//           alert("You are eligible to buy soda only")
+// }
+
+// // switch statement
+let day = "Monday";
+
+switch(day){
+          case "Monday":
+          alert("it's the first day of the week");
+          break;
+
+          case "Tuesday":
+          alert("it's the first day of the week");
+          break;
+
+          case "Wednesday":
+          alert("it's the first day of the week");
+          break;
+          case "Thursday":
+          alert("it's the first day of the week");
+          break;
+
+          case "friday":
+          alert("it's the first day of the week");
+          break;
+
+          default:
+               alert("Then it is a weekend");     
+}
